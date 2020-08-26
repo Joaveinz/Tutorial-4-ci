@@ -12,4 +12,8 @@ public class CalcTest
 	public void testAdd() {
 		assertEquals(42, new Calc().add(40, 2));
 	}
+	
+	public void testSubtract() {
+		assertEquals(40, new Calc().add(42, 2));
+	}
 }
